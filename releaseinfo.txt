@@ -1,0 +1,189 @@
+;==============================================================================
+; Grayhound Release Info
+; 
+; @category Rainmeter
+; @package: Grayhound
+; @version: 4.3.2
+; @date: 2020-06-23
+; @author George Lewe <george@lewe.com>
+; @copyright Copyright (c) 2012-2020 by George Lewe
+; @link http://www.lewe.com
+; @license https://creativecommons.org/licenses/by-nc-sa/3.0/
+;
+
+------------------------------------------------------------------------------
+[4.3.2]
+
+DATE
+2020-06-24
+
+BUGFIXES
+1. CPU Bar 8 Core skin fix
+
+
+------------------------------------------------------------------------------
+[4.3.1]
+
+DATE
+2020-06-24
+
+IMPROVEMENTS
+1. Streamlined and unified color categories
+
+NEW FEATURES
+1. GPU Compact skin
+
+
+------------------------------------------------------------------------------
+[4.3.0]
+
+DATE
+2020-06-21
+
+IMPROVEMENTS
+1. Prev/Next and Play/Pause controls for the Music skin
+2. Export of skin variables into one file for each skin (all sizes use it)
+3. Removal of the single core skins (not too useful)
+
+NEW FEATURES
+1. AIO skin
+
+
+------------------------------------------------------------------------------
+[4.2.0]
+
+DATE
+2020-06-18
+
+BUGFIXES
+1. Fix of Core skin captions
+
+IMPROVEMENTS
+1. Removal of SpeedFan support. Replaced by HWiNFO that provides all that SpeedFan 
+   does plus much more. Only one addl. application needs to be running.
+2. New Fan and Temperature skins (now HWiNFO based)
+
+
+------------------------------------------------------------------------------
+[4.1.0]
+
+DATE
+2020-06-11
+
+NEW FEATURES
+1. Added the GPU skin
+
+
+------------------------------------------------------------------------------
+[4.0.0]
+
+DATE
+2020-06-10
+
+BUGFIXES
+1. Fix of one temperature reading
+
+NEW FEATURES
+1. Added the Music skin
+2. Added the CPU Bars skin
+3. Added a Medium and Large version of each skin
+
+IMPROVEMENTS
+1. Restructured the code by putting measure and meters in seperate files
+2. Added and udes the Digit font for the Uptime skin
+
+
+------------------------------------------------------------------------------
+[3.2.0]
+
+DATE
+2020-06-04
+
+IMPROVEMENTS
+1. Removal of obsolete files
+2. Global.inc include for all skins
+3. Metadata update for all skins
+4. Links to homepage, documentation, support and source
+
+
+------------------------------------------------------------------------------
+[3.1.0]
+
+DATE
+2020-05-31
+
+BUGFIXES
+1. Layout "Grayhound 3840x2160" fixed (right sidebar position)
+2. HD temperatur computation in Temperature skin
+
+NEW FEATURES
+1. Added a 12 core CPU load skin
+
+IMPROVEMENTS
+1. Unicode reference for degree character in Temparature skin
+
+
+------------------------------------------------------------------------------
+[3.0.0]
+
+DATE
+2019-10-30
+
+IMPROVEMENTS
+1. General overhaul of all files and code. Adjustments to newest Rainmeter syntax
+2. Combined temperature skin
+
+
+------------------------------------------------------------------------------
+[2.2.0]
+
+DATE
+2017-01-12
+
+BUGFIXES
+1. Layout "Grayhound 2560x1440" fixed (removed some skins to fit screen)
+
+NEW FEATURES
+1. Created Enigma-like Grayhound sidebars (Enigma skin not needed anymore)
+2. Added feature to place icon on left or right (via INI edit per skin)
+
+IMPROVEMENTS
+1. Placed Uptime skin on left side in Layout "Grayhound 3840x2160"
+
+
+------------------------------------------------------------------------------
+[2.1.1]
+
+DATE
+2017-01-09
+
+BUGFIXES
+1. Fixed bug in CPU skins
+
+NEW FEATURES
+1. Added skin "Temperature" based on SpeedFan
+
+
+------------------------------------------------------------------------------
+[2.0.0]
+
+DATE
+2017-01-04
+
+BUGFIXES
+1. Several...
+
+NEW FEATURES
+1. Added core 5 to 8 skins
+
+IMPROVEMENTS
+1. Introduced Global.inc to easier change global settings
+2. Code maintenance 
+
+------------------------------------------------------------------------------
+[1.0.0]
+
+DATE
+2013
+
+Initial release
