@@ -37,9 +37,7 @@ For the Music Skin you need one of the supported media players that Rainmeter ca
 
 [Homepage](https://www.lewe.com/)
 
-[Source](https://bitbucket.org/georgelewe/grayhound/)
-
-[Support](https://support.lewe.com/)
+[Service Desk](https://georgelewe.atlassian.net/servicedesk/customer/portal/5)
 
 ## Credits
 [Rainmeter Team](https://www.rainmeter.net/)
