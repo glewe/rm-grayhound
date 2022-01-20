@@ -2,7 +2,7 @@
 
 # Rainmeter Skin Package: Grayhound
 [![INI](https://img.shields.io/badge/Language-INI-informational.svg)](https://en.wikipedia.org/wiki/INI_file)
-[![Support](https://img.shields.io/badge/Supported-yes-009900.svg)](https://github.com/glewe/rm-grayhound/issues)
+[![Support](https://img.shields.io/badge/Supported-yes-009900.svg)](https://georgelewe.atlassian.net/servicedesk/customer/portal/5)
 
 A non-intrusive grayish [Rainmeter](https://www.rainmeter.net/) skin showing system resource usage.
 
