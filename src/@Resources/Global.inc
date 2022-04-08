@@ -3,8 +3,8 @@
 ; 
 ; @category Rainmeter
 ; @package Grayhound
-; @version: 4.3.2
-; @date: 2020-06-23
+; @version: 4.4.0
+; @date: 2022-04-08
 ; @author George Lewe <george@lewe.com>
 ; @copyright Copyright (c) 2012-2020 by George Lewe
 ; @link http://www.lewe.com
@@ -122,6 +122,14 @@ UpMaxNetwork=(24 * 1048576)
 ;
 ColorProcesses=#Pink#
 IconProcesses=#@#\Images\process.png
+
+;
+; RecycleBin options
+;
+ColorRecycleBinCount=#Yellow#
+ColorRecycleBinSize=#Red#
+IconRecycleBinEmpty=#@#\Images\recyclebin-empty.png
+IconRecycleBinFull=#@#\Images\recyclebin-full.png
 
 ;
 ; Sidebar skins options

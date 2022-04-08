@@ -4,8 +4,8 @@
 ; 
 ; @category Rainmeter
 ; @package Grayhound
-; @version: 4.3.2
-; @date: 2020-06-23
+; @version: 4.4.0
+; @date: 2022-04-08
 ; @author George Lewe <george@lewe.com>
 ; @copyright Copyright (c) 2012-2020 by George Lewe
 ; @link http://www.lewe.com

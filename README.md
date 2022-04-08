@@ -11,7 +11,7 @@ I know Rainmeter for many years now. I love it and always liked playing around w
 
 I like less obstrusive skins for metering so I decided to go "gray scale" for all the frame work plus some pastell colors for the values. Using a wide screen monitor, my approach was to only place the meters on the far left and right of the desktop so that I can use my application windows in the center and still have a glimpse on the system usage.
 
-## 122 Skins
+## 125 Skins
 
 * CPU (7 skins: Overall, 2 cores, 4 cores, 8 cores, 12 cores, 8 cores spectrum, 12 cores spectrum) (each in 3 sizes)
 * CPU Bars (2 skins: 8 cores, 12 cores) (each in 3 sizes)
@@ -22,6 +22,7 @@ I like less obstrusive skins for metering so I decided to go "gray scale" for al
 * Music (1 skin in 3 sizes)
 * Network (3 skins: In/Out, Incoming, Outgoing) (each in 3 sizes)
 * Processes (1 skin: Top 8 processes) (in 3 sizes)
+* Recycle Bin (1 skin in 3 sizes)
 * Sidebars (3 skins: Left + Right, Left, Right) (each in 3 sizes)
 * Temperature (1 skin: CPU, GPU, HD) (requires installation of [HWiNFO](https://www.hwinfo.com/)) (each in 3 sizes)
 * Uptime (1 skin in 3 sizes)
