@@ -4,7 +4,8 @@
 Measure=Registry
 RegHKey=HKEY_CURRENT_USER
 RegKey=SOFTWARE\HWiNFO64\VSB
-RegValue=ValueRaw11
+;RegValue=ValueRaw11
+RegValue=#AIOFan1RPM#
 MinValue=0
 MaxValue=#MaxFan1#
 
@@ -24,7 +25,7 @@ ifBelowAction=[!SetOption showBarFan1 BarColor "#ColorFanLow#,#BarColorTranspare
 Measure=Registry
 RegHKey=HKEY_CURRENT_USER
 RegKey=SOFTWARE\HWiNFO64\VSB
-RegValue=ValueRaw12
+RegValue=#AIOFan2RPM#
 MinValue=0
 MaxValue=#MaxFan2#
 
@@ -44,7 +45,7 @@ ifBelowAction=[!SetOption showBarFan2 BarColor "#ColorFanLow#,#BarColorTranspare
 Measure=Registry
 RegHKey=HKEY_CURRENT_USER
 RegKey=SOFTWARE\HWiNFO64\VSB
-RegValue=ValueRaw13
+RegValue=#AIOCPUPumpRPM#
 MinValue=0
 MaxValue=#MaxCPUPump#
 
@@ -64,7 +65,7 @@ ifBelowAction=[!SetOption showBarCPUPump BarColor "#ColorFanLow#,#BarColorTransp
 Measure=Registry
 RegHKey=HKEY_CURRENT_USER
 RegKey=SOFTWARE\HWiNFO64\VSB
-RegValue=ValueRaw10
+RegValue=#AIOCoolantTemp#
 MinValue=0
 MaxValue=#MaxCPUCoolant#
 

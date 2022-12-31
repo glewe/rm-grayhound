@@ -2,7 +2,7 @@
 Measure=Registry
 RegHKey=HKEY_CURRENT_USER
 RegKey=SOFTWARE\HWiNFO64\VSB
-RegValue=ValueRaw14
+RegValue=#GPUTemp#
 MinValue=0
 MaxValue=#MaxGPUTemp#
 
@@ -20,7 +20,7 @@ ifBelowAction=[!SetOption showBarGPUTemp BarColor "#ColorTempLow#,#BarColorTrans
 Measure=Registry
 RegHKey=HKEY_CURRENT_USER
 RegKey=SOFTWARE\HWiNFO64\VSB
-RegValue=ValueRaw15
+RegValue=#GPUFan1RPM#
 MinValue=0
 MaxValue=#MaxGPUFan#
 
@@ -28,7 +28,7 @@ MaxValue=#MaxGPUFan#
 Measure=Registry
 RegHKey=HKEY_CURRENT_USER
 RegKey=SOFTWARE\HWiNFO64\VSB
-RegValue=ValueRaw16
+RegValue=#GPUFan2RPM#
 MinValue=0
 MaxValue=#MaxGPUFan#
 
@@ -52,7 +52,7 @@ ifBelowAction=[!SetOption showBarGPUFan BarColor "#ColorFanLow#,#BarColorTranspa
 Measure=Registry
 RegHKey=HKEY_CURRENT_USER
 RegKey=SOFTWARE\HWiNFO64\VSB
-RegValue=ValueRaw18
+RegValue=#GPUUsage#
 MinValue=0
 MaxValue=100
 
@@ -65,13 +65,13 @@ AverageSize=#SmoothFactor#
 Measure=Registry
 RegHKey=HKEY_CURRENT_USER
 RegKey=SOFTWARE\HWiNFO64\VSB
-RegValue=ValueRaw21
+RegValue=#GPUMemAlloc#
 
 [MeasureGPUMemUsedPercent]
 Measure=Registry
 RegHKey=HKEY_CURRENT_USER
 RegKey=SOFTWARE\HWiNFO64\VSB
-RegValue=ValueRaw18
+RegValue=#GPUMemUsedPercent#
 MinValue=0
 MaxValue=100
 

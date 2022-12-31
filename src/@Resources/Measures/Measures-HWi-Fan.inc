@@ -3,7 +3,7 @@
 Measure=Registry
 RegHKey=HKEY_CURRENT_USER
 RegKey=SOFTWARE\HWiNFO64\VSB
-RegValue=ValueRaw4
+RegValue=#FANCFan1RPM#
 MinValue=0
 MaxValue=#MaxFan1#
 
@@ -22,7 +22,7 @@ ifBelowAction=[!SetOption showBarFan1 BarColor "#ColorFanLow#,#BarColorTranspare
 Measure=Registry
 RegHKey=HKEY_CURRENT_USER
 RegKey=SOFTWARE\HWiNFO64\VSB
-RegValue=ValueRaw5
+RegValue=#FANCFan2RPM#
 MinValue=0
 MaxValue=#MaxFan2#
 
@@ -41,7 +41,7 @@ ifBelowAction=[!SetOption showBarFan2 BarColor "#ColorFanLow#,#BarColorTranspare
 Measure=Registry
 RegHKey=HKEY_CURRENT_USER
 RegKey=SOFTWARE\HWiNFO64\VSB
-RegValue=ValueRaw6
+RegValue=#FANCFan3RPM#
 MinValue=0
 MaxValue=#MaxFan3#
 
@@ -60,7 +60,7 @@ ifBelowAction=[!SetOption showBarFan3 BarColor "#ColorFanLow#,#BarColorTranspare
 Measure=Registry
 RegHKey=HKEY_CURRENT_USER
 RegKey=SOFTWARE\HWiNFO64\VSB
-RegValue=ValueRaw7
+RegValue=#FANCFan4RPM#
 MinValue=0
 MaxValue=#MaxFan4#
 
@@ -79,7 +79,7 @@ ifBelowAction=[!SetOption showBarFan4 BarColor "#ColorFanLow#,#BarColorTranspare
 Measure=Registry
 RegHKey=HKEY_CURRENT_USER
 RegKey=SOFTWARE\HWiNFO64\VSB
-RegValue=ValueRaw8
+RegValue=#FANCFan5RPM#
 MinValue=0
 MaxValue=#MaxFan5#
 
@@ -98,7 +98,7 @@ ifBelowAction=[!SetOption showBarFan5 BarColor "#ColorFanLow#,#BarColorTranspare
 Measure=Registry
 RegHKey=HKEY_CURRENT_USER
 RegKey=SOFTWARE\HWiNFO64\VSB
-RegValue=ValueRaw9
+RegValue=#FANCFan6RPM#
 MinValue=0
 MaxValue=#MaxFan6#
 
@@ -111,4 +111,3 @@ IfEqualValue=1
 ifEqualAction=[!SetOption showBarFan6 BarColor "#ColorFanMed#,#BarColorTransparency#"][!SetOption showLineFan6 LineColor "#ColorFanMed#,180"][!SetOption showHistogramFan6 PrimaryColor "#ColorFanMed#,60"][!Redraw]
 IfBelowValue=0
 ifBelowAction=[!SetOption showBarFan6 BarColor "#ColorFanLow#,#BarColorTransparency#"][!SetOption showLineFan6 LineColor "#ColorFanLow#,180"][!SetOption showHistogramFan6 PrimaryColor "#ColorFanLow#,60"][!Redraw]
-

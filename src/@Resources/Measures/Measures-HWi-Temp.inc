@@ -2,7 +2,7 @@
 Measure=Registry
 RegHKey=HKEY_CURRENT_USER
 RegKey=SOFTWARE\HWiNFO64\VSB
-RegValue=ValueRaw1
+RegValue=#SYSTemp#
 MinValue=0
 MaxValue=#MaxSYS#
 
@@ -20,7 +20,7 @@ ifBelowAction=[!SetOption showBarSYS BarColor "#ColorTempLow#,#BarColorTranspare
 Measure=Registry
 RegHKey=HKEY_CURRENT_USER
 RegKey=SOFTWARE\HWiNFO64\VSB
-RegValue=ValueRaw14
+RegValue=#GPUTemp#
 MinValue=0
 MaxValue=#MaxGPU#
 
@@ -38,7 +38,7 @@ ifBelowAction=[!SetOption showBarGPU BarColor "#ColorTempLow#,#BarColorTranspare
 Measure=Registry
 RegHKey=HKEY_CURRENT_USER
 RegKey=SOFTWARE\HWiNFO64\VSB
-RegValue=ValueRaw0
+RegValue=#CPUTemp#
 MinValue=0
 MaxValue=#MaxCPU#
 
@@ -56,7 +56,7 @@ ifBelowAction=[!SetOption showBarCPU BarColor "#ColorTempLow#,#BarColorTranspare
 Measure=Registry
 RegHKey=HKEY_CURRENT_USER
 RegKey=SOFTWARE\HWiNFO64\VSB
-RegValue=ValueRaw2
+RegValue=#HD0Temp#
 MinValue=0
 MaxValue=#MaxHD#
 
@@ -74,7 +74,7 @@ ifBelowAction=[!SetOption showBarHD0 BarColor "#ColorTempLow#,#BarColorTranspare
 Measure=Registry
 RegHKey=HKEY_CURRENT_USER
 RegKey=SOFTWARE\HWiNFO64\VSB
-RegValue=ValueRaw3
+RegValue=#HD1Temp#
 MinValue=0
 MaxValue=#MaxHD#
 
