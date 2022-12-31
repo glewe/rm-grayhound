@@ -1,13 +1,10 @@
 [getSYSTemp]
-Measure=Plugin
-Plugin=HWiNFO
-HWiNFOSensorId=#HWiNFO-MOBO-SensorId#
-HWiNFOSensorInstance=#HWiNFO-MOBO-SensorInstance#
-HWiNFOEntryId=#HWiNFO-MOBO-SysTemp#
-HWiNFOType=CurrentValue
+Measure=Registry
+RegHKey=HKEY_CURRENT_USER
+RegKey=SOFTWARE\HWiNFO64\VSB
+RegValue=ValueRaw1
 MinValue=0
 MaxValue=#MaxSYS#
-Group=HWiNFO
 
 [setSYSColor]
 Measure=Calc
@@ -20,15 +17,12 @@ IfBelowValue=0
 ifBelowAction=[!SetOption showBarSYS BarColor "#ColorTempLow#,#BarColorTransparency#"][!SetOption showLineSYS LineColor "#ColorTempLow#,180"][!SetOption showHistogramSYS PrimaryColor "#ColorTempLow#,60"][!Redraw]
 
 [getGPUTemp]
-Measure=Plugin
-Plugin=HWiNFO
-HWiNFOSensorId=#HWiNFO-GPU0-SensorId#
-HWiNFOSensorInstance=#HWiNFO-GPU0-SensorInstance#
-HWiNFOEntryId=#HWiNFO-GPU0-Temp#
-HWiNFOType=CurrentValue
+Measure=Registry
+RegHKey=HKEY_CURRENT_USER
+RegKey=SOFTWARE\HWiNFO64\VSB
+RegValue=ValueRaw14
 MinValue=0
 MaxValue=#MaxGPU#
-Group=HWiNFO
 
 [setGPUColor]
 Measure=Calc
@@ -41,16 +35,12 @@ IfBelowValue=0
 ifBelowAction=[!SetOption showBarGPU BarColor "#ColorTempLow#,#BarColorTransparency#"][!SetOption showLineGPU LineColor "#ColorTempLow#,180"][!SetOption showHistogramGPU PrimaryColor "#ColorTempLow#,60"][!Redraw]
 
 [getCPUTemp]
-Measure=Plugin
-Plugin=HWiNFO
-HWiNFOSensorId=#HWiNFO-MOBO-SensorId#
-HWiNFOSensorInstance=#HWiNFO-MOBO-SensorInstance#
-;HWiNFOEntryId=#HWiNFO-MOBO-CPUTemp#
-HWiNFOEntryId=#HWiNFO-MOBO-CPUPackageTemp#
-HWiNFOType=CurrentValue
+Measure=Registry
+RegHKey=HKEY_CURRENT_USER
+RegKey=SOFTWARE\HWiNFO64\VSB
+RegValue=ValueRaw0
 MinValue=0
 MaxValue=#MaxCPU#
-Group=HWiNFO
 
 [setCPUColor]
 Measure=Calc
@@ -63,15 +53,12 @@ IfBelowValue=0
 ifBelowAction=[!SetOption showBarCPU BarColor "#ColorTempLow#,#BarColorTransparency#"][!SetOption showLineCPU LineColor "#ColorTempLow#,180"][!SetOption showHistogramCPU PrimaryColor "#ColorTempLow#,60"][!Redraw]
 
 [getHD0Temp]
-Measure=Plugin
-Plugin=HWiNFO
-HWiNFOSensorId=#HWiNFO-SSD0-SensorId#
-HWiNFOSensorInstance=#HWiNFO-SSD0-SensorInstance#
-HWiNFOEntryId=#HWiNFO-SSD0-Temp#
-HWiNFOType=CurrentValue
+Measure=Registry
+RegHKey=HKEY_CURRENT_USER
+RegKey=SOFTWARE\HWiNFO64\VSB
+RegValue=ValueRaw2
 MinValue=0
 MaxValue=#MaxHD#
-Group=HWiNFO
 
 [setHD0Color]
 Measure=Calc
@@ -84,15 +71,12 @@ IfBelowValue=0
 ifBelowAction=[!SetOption showBarHD0 BarColor "#ColorTempLow#,#BarColorTransparency#"][!SetOption showLineHD0 LineColor "#ColorTempLow#,180"][!SetOption showHistogramHD0 PrimaryColor "#ColorTempLow#,60"][!Redraw]
 
 [getHD1Temp]
-Measure=Plugin
-Plugin=HWiNFO
-HWiNFOSensorId=#HWiNFO-SSD1-SensorId#
-HWiNFOSensorInstance=#HWiNFO-SSD1-SensorInstance#
-HWiNFOEntryId=#HWiNFO-SSD1-Temp#
-HWiNFOType=CurrentValue
+Measure=Registry
+RegHKey=HKEY_CURRENT_USER
+RegKey=SOFTWARE\HWiNFO64\VSB
+RegValue=ValueRaw3
 MinValue=0
 MaxValue=#MaxHD#
-Group=HWiNFO
 
 [setHD1Color]
 Measure=Calc

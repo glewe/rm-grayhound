@@ -23,6 +23,30 @@ GPUTempHistoLineColor=#ColorTempLow#,#LineColorTransparency#
 GPUTempHistoFillColor=#ColorTempLow#,#HistoColorTransparency#
 SkinIcon=#IconGPU#
 
+;
+; Fan Max and Thresholds
+;
 MaxGPUFan=8000
 MedGPUFan=4000
 HiGPUFan=6500
+
+;
+; Temperatur Max and Thresholds
+;
+MaxGPUTemp=100
+MedGPUTemp=65
+HiGPUTemp=80
+
+;
+; Temperature unit
+;
+TempUnit=C
+
+;
+; Captions
+;
+Caption="GeForce RTX 2080 Ti"
+CaptionUsage="Usage"
+CaptionVram="VRAM"
+CaptionFan="Fan"
+CaptionTemp="Temp"

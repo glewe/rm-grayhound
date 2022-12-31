@@ -2,7 +2,6 @@
 
 [showCaptionGPU]
 Meter=String
-MeasureName=MeasureGPUName
 X=#MeterXPos#
 Y=#CaptionYPos#
 AntiAlias=1
@@ -11,7 +10,7 @@ FontFace=#FontFace#
 FontSize=#FontSize#
 StringAlign=Left
 StringStyle=Bold
-Text=%1
+Text=#Caption#
 
 ; ------------------------------------- GPU Usage
 
@@ -98,6 +97,7 @@ Text="VRAM"
 [showLeftTextVRAM]
 Meter=String
 MeasureName=MeasureGPURAMTotal
+;MeasureName=MeasureGPUMemAlloc
 X=#MeterXPos#
 Y=#LegendYRel#
 AntiAlias=1
@@ -106,7 +106,7 @@ FontColor=#FontColor#
 FontFace=#FontFace#
 FontSize=#FontSize#
 StringAlign=Left
-Text="Total: %1 GB"
+Text="Total: %1"
 DynamicVariables=1
 
 [showRightTextVRAM]
@@ -120,7 +120,7 @@ FontColor=#FontColor#
 FontFace=#FontFace#
 FontSize=#FontSize#
 StringAlign=Right
-Text="Free: %1 GB"
+Text="Free: %1"
 
 [showBarVRAM]
 Meter=Bar

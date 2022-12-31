@@ -2,7 +2,6 @@
 
 [showCaptionGPU]
 Meter=String
-MeasureName=MeasureGPUName
 X=#MeterXPos#
 Y=#CaptionYPos#
 AntiAlias=1
@@ -11,7 +10,7 @@ FontFace=#FontFace#
 FontSize=#FontSize#
 StringAlign=Left
 StringStyle=Bold
-Text=%1
+Text=#Caption#
 
 ;------------------------------------------------ Usage
 
@@ -90,7 +89,7 @@ StringAlign=Left
 Text=#CaptionVram#
 
 [showRightTextVram]
-MeasureName=MeasureGPURAMUsed
+MeasureName=MeasureGPUMemAlloc
 Meter=String
 X=(#MeterXPos# + #MeterWidth#)
 Y=0r

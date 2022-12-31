@@ -1,14 +1,11 @@
 ;-------------------------------------------------------------------- Fan 1
 [getFANCFan1]
-Measure=Plugin
-Plugin=HWiNFO
-HWiNFOSensorId=#HWiNFO-FANC-SensorId#
-HWiNFOSensorInstance=#HWiNFO-FANC-SensorInstance#
-HWiNFOEntryId=#HWiNFO-FANC-Fan1#
-HWiNFOType=CurrentValue
+Measure=Registry
+RegHKey=HKEY_CURRENT_USER
+RegKey=SOFTWARE\HWiNFO64\VSB
+RegValue=ValueRaw4
 MinValue=0
 MaxValue=#MaxFan1#
-Group=HWiNFO
 
 [setFANCFan1Color]
 Measure=Calc
@@ -22,15 +19,12 @@ ifBelowAction=[!SetOption showBarFan1 BarColor "#ColorFanLow#,#BarColorTranspare
 
 ;-------------------------------------------------------------------- Fan 2
 [getFANCFan2]
-Measure=Plugin
-Plugin=HWiNFO
-HWiNFOSensorId=#HWiNFO-FANC-SensorId#
-HWiNFOSensorInstance=#HWiNFO-FANC-SensorInstance#
-HWiNFOEntryId=#HWiNFO-FANC-Fan2#
-HWiNFOType=CurrentValue
+Measure=Registry
+RegHKey=HKEY_CURRENT_USER
+RegKey=SOFTWARE\HWiNFO64\VSB
+RegValue=ValueRaw5
 MinValue=0
 MaxValue=#MaxFan2#
-Group=HWiNFO
 
 [setFANCFan2Color]
 Measure=Calc
@@ -44,15 +38,12 @@ ifBelowAction=[!SetOption showBarFan2 BarColor "#ColorFanLow#,#BarColorTranspare
 
 ;-------------------------------------------------------------------- Fan 3
 [getFANCFan3]
-Measure=Plugin
-Plugin=HWiNFO
-HWiNFOSensorId=#HWiNFO-FANC-SensorId#
-HWiNFOSensorInstance=#HWiNFO-FANC-SensorInstance#
-HWiNFOEntryId=#HWiNFO-FANC-Fan3#
-HWiNFOType=CurrentValue
+Measure=Registry
+RegHKey=HKEY_CURRENT_USER
+RegKey=SOFTWARE\HWiNFO64\VSB
+RegValue=ValueRaw6
 MinValue=0
 MaxValue=#MaxFan3#
-Group=HWiNFO
 
 [setFANCFan3Color]
 Measure=Calc
@@ -66,15 +57,12 @@ ifBelowAction=[!SetOption showBarFan3 BarColor "#ColorFanLow#,#BarColorTranspare
 
 ;-------------------------------------------------------------------- Fan 4
 [getFANCFan4]
-Measure=Plugin
-Plugin=HWiNFO
-HWiNFOSensorId=#HWiNFO-FANC-SensorId#
-HWiNFOSensorInstance=#HWiNFO-FANC-SensorInstance#
-HWiNFOEntryId=#HWiNFO-FANC-Fan4#
-HWiNFOType=CurrentValue
+Measure=Registry
+RegHKey=HKEY_CURRENT_USER
+RegKey=SOFTWARE\HWiNFO64\VSB
+RegValue=ValueRaw7
 MinValue=0
 MaxValue=#MaxFan4#
-Group=HWiNFO
 
 [setFANCFan4Color]
 Measure=Calc
@@ -88,15 +76,12 @@ ifBelowAction=[!SetOption showBarFan4 BarColor "#ColorFanLow#,#BarColorTranspare
 
 ;-------------------------------------------------------------------- Fan 5
 [getFANCFan5]
-Measure=Plugin
-Plugin=HWiNFO
-HWiNFOSensorId=#HWiNFO-FANC-SensorId#
-HWiNFOSensorInstance=#HWiNFO-FANC-SensorInstance#
-HWiNFOEntryId=#HWiNFO-FANC-Fan5#
-HWiNFOType=CurrentValue
+Measure=Registry
+RegHKey=HKEY_CURRENT_USER
+RegKey=SOFTWARE\HWiNFO64\VSB
+RegValue=ValueRaw8
 MinValue=0
 MaxValue=#MaxFan5#
-Group=HWiNFO
 
 [setFANCFan5Color]
 Measure=Calc
@@ -110,15 +95,12 @@ ifBelowAction=[!SetOption showBarFan5 BarColor "#ColorFanLow#,#BarColorTranspare
 
 ;-------------------------------------------------------------------- Fan 6
 [getFANCFan6]
-Measure=Plugin
-Plugin=HWiNFO
-HWiNFOSensorId=#HWiNFO-FANC-SensorId#
-HWiNFOSensorInstance=#HWiNFO-FANC-SensorInstance#
-HWiNFOEntryId=#HWiNFO-FANC-Fan6#
-HWiNFOType=CurrentValue
+Measure=Registry
+RegHKey=HKEY_CURRENT_USER
+RegKey=SOFTWARE\HWiNFO64\VSB
+RegValue=ValueRaw9
 MinValue=0
 MaxValue=#MaxFan6#
-Group=HWiNFO
 
 [setFANCFan6Color]
 Measure=Calc

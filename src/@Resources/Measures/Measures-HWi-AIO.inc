@@ -1,15 +1,12 @@
 ; ----------------------------------------------------------------------- Fan 1
 
 [getAIOFan1]
-Measure=Plugin
-Plugin=HWiNFO
-HWiNFOSensorId=#HWiNFO-AIO-SensorId#
-HWiNFOSensorInstance=#HWiNFO-AIO-SensorInstance#
-HWiNFOEntryId=#HWiNFO-AIO-Fan1#
-HWiNFOType=CurrentValue
+Measure=Registry
+RegHKey=HKEY_CURRENT_USER
+RegKey=SOFTWARE\HWiNFO64\VSB
+RegValue=ValueRaw11
 MinValue=0
 MaxValue=#MaxFan1#
-Group=HWiNFO
 
 [setAIOFan1Color]
 Measure=Calc
@@ -24,15 +21,12 @@ ifBelowAction=[!SetOption showBarFan1 BarColor "#ColorFanLow#,#BarColorTranspare
 ; ----------------------------------------------------------------------- Fan 2
 
 [getAIOFan2]
-Measure=Plugin
-Plugin=HWiNFO
-HWiNFOSensorId=#HWiNFO-AIO-SensorId#
-HWiNFOSensorInstance=#HWiNFO-AIO-SensorInstance#
-HWiNFOEntryId=#HWiNFO-AIO-Fan2#
-HWiNFOType=CurrentValue
+Measure=Registry
+RegHKey=HKEY_CURRENT_USER
+RegKey=SOFTWARE\HWiNFO64\VSB
+RegValue=ValueRaw12
 MinValue=0
 MaxValue=#MaxFan2#
-Group=HWiNFO
 
 [setAIOFan2Color]
 Measure=Calc
@@ -47,15 +41,12 @@ ifBelowAction=[!SetOption showBarFan2 BarColor "#ColorFanLow#,#BarColorTranspare
 ; ----------------------------------------------------------------------- Pump
 
 [getCPUPump]
-Measure=Plugin
-Plugin=HWiNFO
-HWiNFOSensorId=#HWiNFO-AIO-SensorId#
-HWiNFOSensorInstance=#HWiNFO-AIO-SensorInstance#
-HWiNFOEntryId=#HWiNFO-AIO-CPUPump#
-HWiNFOType=CurrentValue
+Measure=Registry
+RegHKey=HKEY_CURRENT_USER
+RegKey=SOFTWARE\HWiNFO64\VSB
+RegValue=ValueRaw13
 MinValue=0
 MaxValue=#MaxCPUPump#
-Group=HWiNFO
 
 [setCPUPumpColor]
 Measure=Calc
@@ -70,15 +61,12 @@ ifBelowAction=[!SetOption showBarCPUPump BarColor "#ColorFanLow#,#BarColorTransp
 ; ----------------------------------------------------------------------- Coolant
 
 [getCPUCoolantTemp]
-Measure=Plugin
-Plugin=HWiNFO
-HWiNFOSensorId=#HWiNFO-AIO-SensorId#
-HWiNFOSensorInstance=#HWiNFO-AIO-SensorInstance#
-HWiNFOEntryId=#HWiNFO-AIO-CPUCoolantTemp#
-HWiNFOType=CurrentValue
+Measure=Registry
+RegHKey=HKEY_CURRENT_USER
+RegKey=SOFTWARE\HWiNFO64\VSB
+RegValue=ValueRaw10
 MinValue=0
 MaxValue=#MaxCPUCoolant#
-Group=HWiNFO
 
 [setCPUCoolantTempColor]
 Measure=Calc
