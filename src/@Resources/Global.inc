@@ -1,6 +1,6 @@
 ;==============================================================================
 ; Grayhound Global Settings
-; 
+;
 ; @category: Rainmeter
 ; @package: Grayhound
 ; @version: 5.5.0
@@ -37,19 +37,8 @@ FontColorGlobal=#White#,200
 ;
 ; Variable Skin Colors
 ;
-ColorDisk=#Green#
-ColorMemory=#Magenta#
-ColorFan=#Green#
-ColorFanLow=#Green#
-ColorFanMed=#Yellow#
-ColorFanHi=#Red#
-ColorProcess=#Pink#
-ColorTemp=#Blue#
-ColorTempLow=#Blue#
-ColorTempMed=#Yellow#
-ColorTempHi=#Red#
-ColorUptime=#Blue#
 ColorUsage=#Red#
+UsageColor=#Red#
 
 ;
 ; Global font
@@ -76,12 +65,13 @@ IconCPU=#@#\Images\cpu.png
 ;
 ; Disk skins options
 ;
-ColorDisk=#DiskColor#
+ColorDisk=#Green#
 IconDisk=#@#\Images\disk.png
 
 ;
 ; Fan skins options
 ;
+ColorFan=#Green#
 ColorFanLow=#Green#
 ColorFanMed=#Yellow#
 ColorFanHi=#Red#
@@ -120,6 +110,7 @@ UpMaxNetwork=(24 * 1048576)
 ;
 ; Processes skin options
 ;
+ColorProcess=#Pink#
 ColorProcesses=#Pink#
 IconProcesses=#@#\Images\process.png
 
@@ -141,6 +132,7 @@ DesktopWidth=3840
 ;
 ; Temperature skins options
 ;
+ColorTemp=#Blue#
 ColorTempLow=#Blue#
 ColorTempMed=#Yellow#
 ColorTempHi=#Red#
