@@ -13,9 +13,9 @@ I know Rainmeter for many years now. I love it and always liked playing around w
 
 I like less obstrusive skins for metering so I decided to go "gray scale" for all the frame work plus some pastell colors for the values. Using a wide screen monitor, my approach was to only place the meters on the far left and right of the desktop so that I can use my application windows in the center and still have a glimpse on the system usage.
 
-## 125 Skins
+## 131 Skins
 
--   CPU (7 skins: Overall, 2 cores, 4 cores, 8 cores, 12 cores, 8 cores spectrum, 12 cores spectrum) (each in 3 sizes)
+-   CPU (7 skins: Overall, 2 cores, 4 cores, 8 cores, 12 cores, 16 cores, 8 cores spectrum, 12 cores spectrum, 16 cores spectrum) (each in 3 sizes)
 -   CPU Bars (2 skins: 8 cores, 12 cores) (each in 3 sizes)
 -   Disk (27 skins: 1-4 drives, Drives C-G) (each in 3 sizes)
 -   Fan Speed (1 skin) (requires installation of [HWiNFO](https://www.hwinfo.com/)) (each in 3 sizes)
@@ -31,7 +31,7 @@ I like less obstrusive skins for metering so I decided to go "gray scale" for al
 
 ## Note
 
-For the Fan Speed and Temperature skin you need to install [HWiNFO 7.x](https://www.hwinfo.com/) (or higher) that delivers the corresponding readings to the Registry where Rainmeter Measures can pick them up.
+For the Fan Speed and Temperature skin you need to install [HWiNFO 7.x](https://www.hwinfo.com/) that delivers the corresponding readings to the Registry where Rainmeter Measures can pick them up.
 Read more about the setup of HWiNFO and Rainmeter here: [https://docs.rainmeter.net/tips/hwinfo/](https://docs.rainmeter.net/tips/hwinfo/)
 
 For the Music Skin you need one of the supported media players that Rainmeter can read from. You can find the supported players listed [here](https://docs.rainmeter.net/manual/measures/nowplaying/).

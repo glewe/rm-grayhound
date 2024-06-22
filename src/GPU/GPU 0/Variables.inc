@@ -45,8 +45,8 @@ TempUnit=C
 ;
 ; Captions
 ;
-Caption="GeForce RTX 2080 Ti"
+Caption="GeForce RTX 4090 OC"
 CaptionUsage="Usage"
-CaptionVram="VRAM"
+CaptionVram="Memory"
 CaptionFan="Fan"
 CaptionTemp="Temp"

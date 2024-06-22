@@ -1,12 +1,12 @@
 ;==============================================================================
 ; Grayhound Global Settings
-;
+; 
 ; @category: Rainmeter
 ; @package: Grayhound
 ; @version: 5.5.0
 ; @date: 2022-12-31
 ; @author: George Lewe <george@lewe.com>
-; @copyright: 2012-2023 by George Lewe
+; @copyright: 2012-2024 by George Lewe
 ; @link: http://www.lewe.com
 ; @license: https://creativecommons.org/licenses/by-nc-sa/3.0/
 ;
@@ -37,8 +37,19 @@ FontColorGlobal=#White#,200
 ;
 ; Variable Skin Colors
 ;
+ColorDisk=#Green#
+ColorMemory=#Magenta#
+ColorFan=#Green#
+ColorFanLow=#Green#
+ColorFanMed=#Yellow#
+ColorFanHi=#Red#
+ColorProcess=#Pink#
+ColorTemp=#Blue#
+ColorTempLow=#Blue#
+ColorTempMed=#Yellow#
+ColorTempHi=#Red#
+ColorUptime=#Blue#
 ColorUsage=#Red#
-UsageColor=#Red#
 
 ;
 ; Global font
@@ -65,13 +76,12 @@ IconCPU=#@#\Images\cpu.png
 ;
 ; Disk skins options
 ;
-ColorDisk=#Green#
+ColorDisk=#DiskColor#
 IconDisk=#@#\Images\disk.png
 
 ;
 ; Fan skins options
 ;
-ColorFan=#Green#
 ColorFanLow=#Green#
 ColorFanMed=#Yellow#
 ColorFanHi=#Red#
@@ -103,14 +113,13 @@ IconMusic=#@#\Images\sound.png
 ColorNetwork=#Yellow#
 IconNetwork=#@#\Images\network.png
 ; 200 Mbit (change to speed in your environment)
-DownMaxNetwork=(240 * 1048576)
-; 20 Mbit (change to speed in your environment)
-UpMaxNetwork=(24 * 1048576)
+DownMaxNetwork=(1000 * 1048576)
+; 80 Mbit (change to speed in your environment)
+UpMaxNetwork=(80 * 1048576)
 
 ;
 ; Processes skin options
 ;
-ColorProcess=#Pink#
 ColorProcesses=#Pink#
 IconProcesses=#@#\Images\process.png
 
@@ -132,7 +141,6 @@ DesktopWidth=3840
 ;
 ; Temperature skins options
 ;
-ColorTemp=#Blue#
 ColorTempLow=#Blue#
 ColorTempMed=#Yellow#
 ColorTempHi=#Red#
