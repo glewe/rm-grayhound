@@ -1,3 +1,17 @@
+;==============================================================================
+; Grayhound Measure Configurations
+;
+; @category: Rainmeter
+; @package: Grayhound
+; @version: 5.6.0
+; @date: 2024-06-22
+; @author: George Lewe <george@lewe.com>
+; @copyright: 2012-2024 by George Lewe
+; @link: http://www.lewe.com
+; @license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+; @documentation: https://lewe.gitbook.io/rainmeter-skin-grayhound
+;
+
 [getItems]
 ; Returns the amount of items in the Recycle Bin.
 Measure=Plugin
@@ -10,7 +24,7 @@ UpdateDivider=#ProcessInterval#
 MinValue=0
 ; How many items shall show the bar at 100%?
 MaxValue=100
-IfCondition=getItems = 0 
+IfCondition=getItems = 0
 ifTrueAction=[!SetOption showIcon ImageName "#IconRecycleBinEmpty#"]
 
 [getSize]
@@ -22,5 +36,5 @@ UpdateDivider=3
 MinValue=0
 ; How many MB shall show the bar at 100%? 500MB = 1024*1024*500
 MaxValue=(1024*1024*500)
-IfCondition=getSize > 0 
+IfCondition=getSize > 0
 ifTrueAction=[!SetOption showIcon ImageName "#IconRecycleBinFull#"]

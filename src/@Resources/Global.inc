@@ -3,12 +3,13 @@
 ;
 ; @category: Rainmeter
 ; @package: Grayhound
-; @version: 5.5.0
-; @date: 2022-12-31
+; @version: 5.6.0
+; @date: 2024-06-22
 ; @author: George Lewe <george@lewe.com>
-; @copyright: 2012-2023 by George Lewe
+; @copyright: 2012-2024 by George Lewe
 ; @link: http://www.lewe.com
 ; @license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+; @documentation: https://lewe.gitbook.io/rainmeter-skin-grayhound
 ;
 
 [Variables]
@@ -102,10 +103,10 @@ IconMusic=#@#\Images\sound.png
 ;
 ColorNetwork=#Yellow#
 IconNetwork=#@#\Images\network.png
-; 200 Mbit (change to speed in your environment)
-DownMaxNetwork=(240 * 1048576)
-; 20 Mbit (change to speed in your environment)
-UpMaxNetwork=(24 * 1048576)
+; 1000 Mbit (change to speed in your environment)
+DownMaxNetwork=(1000 * 1048576)
+; 50 Mbit (change to speed in your environment)
+UpMaxNetwork=(50 * 1048576)
 
 ;
 ; Processes skin options

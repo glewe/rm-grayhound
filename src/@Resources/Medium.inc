@@ -1,15 +1,16 @@
 ;==============================================================================
 ; Grayhound Medium Size Settings
 ; Needs to be included after Global.inc
-; 
+;
 ; @category: Rainmeter
 ; @package: Grayhound
-; @version: 5.5.0
-; @date: 2022-12-31
+; @version: 5.6.0
+; @date: 2024-06-22
 ; @author: George Lewe <george@lewe.com>
-; @copyright: 2012-2023 by George Lewe
+; @copyright: 2012-2024 by George Lewe
 ; @link: http://www.lewe.com
 ; @license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+; @documentation: https://lewe.gitbook.io/rainmeter-skin-grayhound
 ;
 
 [Variables]
@@ -46,6 +47,9 @@ CoreBarYRel8Cores=100r
 CoreBarWidth12Cores=18
 CoreBarXDist12Cores=3
 CoreBarYRel12Cores=100r
+CoreBarWidth16Cores=13.7
+CoreBarXDist16Cores=2
+CoreBarYRel16Cores=100r
 CoreBarHeight=80
 CoreBarMarginBottom=8
 CoreSpectrumYPos=50

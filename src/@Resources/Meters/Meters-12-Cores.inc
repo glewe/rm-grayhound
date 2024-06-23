@@ -1,4 +1,19 @@
+;==============================================================================
+; Grayhound Meter Settings
+;
+; @category: Rainmeter
+; @package: Grayhound
+; @version: 5.6.0
+; @date: 2024-06-22
+; @author: George Lewe <george@lewe.com>
+; @copyright: 2012-2024 by George Lewe
+; @link: http://www.lewe.com
+; @license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+; @documentation: https://lewe.gitbook.io/rainmeter-skin-grayhound
+;
+
 ; ------------------------------------- Core 1
+
 [showCaptionCpu1]
 Meter=String
 MeasureName=getCPUDisplayName
@@ -77,6 +92,7 @@ Flip=0
 PrimaryColor=#HistoFillColor#
 
 ; ------------------------------------- Core 2
+
 [showCaptionCpu2]
 Meter=String
 MeasureName=getCPUDisplayName
@@ -143,6 +159,7 @@ Flip=0
 PrimaryColor=#HistoFillColor#
 
 ; ------------------------------------- Core 3
+
 [showCaptionCpu3]
 Meter=String
 MeasureName=getCPUDisplayName
@@ -209,6 +226,7 @@ Flip=0
 PrimaryColor=#HistoFillColor#
 
 ; ------------------------------------- Core 4
+
 [showCaptionCpu4]
 Meter=String
 MeasureName=getCPUDisplayName
@@ -275,6 +293,7 @@ Flip=0
 PrimaryColor=#HistoFillColor#
 
 ; ------------------------------------- Core 5
+
 [showCaptionCpu5]
 Meter=String
 MeasureName=getCPUDisplayName
@@ -341,6 +360,7 @@ Flip=0
 PrimaryColor=#HistoFillColor#
 
 ; ------------------------------------- Core 6
+
 [showCaptionCpu6]
 Meter=String
 MeasureName=getCPUDisplayName
@@ -407,6 +427,7 @@ Flip=0
 PrimaryColor=#HistoFillColor#
 
 ; ------------------------------------- Core 7
+
 [showCaptionCpu7]
 Meter=String
 MeasureName=getCPUDisplayName
@@ -473,6 +494,7 @@ Flip=0
 PrimaryColor=#HistoFillColor#
 
 ; ------------------------------------- Core 8
+
 [showCaptionCpu8]
 Meter=String
 MeasureName=getCPUDisplayName
@@ -539,6 +561,7 @@ Flip=0
 PrimaryColor=#HistoFillColor#
 
 ; ------------------------------------- Core 9
+
 [showCaptionCpu9]
 Meter=String
 MeasureName=getCPUDisplayName
@@ -605,6 +628,7 @@ Flip=0
 PrimaryColor=#HistoFillColor#
 
 ; ------------------------------------- Core 10
+
 [showCaptionCpu10]
 Meter=String
 MeasureName=getCPUDisplayName
@@ -671,6 +695,7 @@ Flip=0
 PrimaryColor=#HistoFillColor#
 
 ; ------------------------------------- Core 11
+
 [showCaptionCpu11]
 Meter=String
 MeasureName=getCPUDisplayName
@@ -737,6 +762,7 @@ Flip=0
 PrimaryColor=#HistoFillColor#
 
 ; ------------------------------------- Core 12
+
 [showCaptionCpu12]
 Meter=String
 MeasureName=getCPUDisplayName

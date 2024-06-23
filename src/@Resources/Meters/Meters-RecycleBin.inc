@@ -1,3 +1,17 @@
+;==============================================================================
+; Grayhound Meter Settings
+;
+; @category: Rainmeter
+; @package: Grayhound
+; @version: 5.6.0
+; @date: 2024-06-22
+; @author: George Lewe <george@lewe.com>
+; @copyright: 2012-2024 by George Lewe
+; @link: http://www.lewe.com
+; @license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+; @documentation: https://lewe.gitbook.io/rainmeter-skin-grayhound
+;
+
 [showCaption]
 Meter=String
 X=#MeterXPos#
@@ -14,6 +28,7 @@ RightMouseUpAction=[!CommandMeasure getItems "EmptyBin"]
 ToolTipText=Left-click to open Recycle Bin#CRLF#Right-click to empty
 
 ; ------------------- Items
+
 [showTextItems]
 MeasureName=getItems
 Meter=String
@@ -49,6 +64,7 @@ RightMouseUpAction=[!CommandMeasure getItems "EmptyBin"]
 ToolTipText=Left-click to open Recycle Bin#CRLF#Right-click to empty
 
 ; ------------------- Size
+
 [showTextSize]
 MeasureName=getSize
 Meter=String

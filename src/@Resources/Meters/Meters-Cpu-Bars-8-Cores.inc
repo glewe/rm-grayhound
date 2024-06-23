@@ -1,4 +1,19 @@
+;==============================================================================
+; Grayhound Meter Settings
+;
+; @category: Rainmeter
+; @package: Grayhound
+; @version: 5.6.0
+; @date: 2024-06-22
+; @author: George Lewe <george@lewe.com>
+; @copyright: 2012-2024 by George Lewe
+; @link: http://www.lewe.com
+; @license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+; @documentation: https://lewe.gitbook.io/rainmeter-skin-grayhound
+;
+
 ; ------------------------------------- Caption
+
 [showCaptionCore]
 Meter=String
 MeasureName=getCPUDisplayName
@@ -15,6 +30,7 @@ StringStyle=Bold
 Text="%1"
 
 ; ------------------------------------- Core Spectrum
+
 [showBarCore1]
 MeasureName=getCpu#Core1Number#
 Meter=Bar
@@ -112,6 +128,7 @@ SolidColor2=#BarColorBgTo#
 BarOrientation=Vertical
 
 ; ------------------------------------- Percentage
+
 [showNetOutCaption]
 Meter=String
 X=#MeterXPos#
@@ -138,6 +155,7 @@ StringAlign=Left
 Text="%1 %"
 
 ; ------------------------------------- CPU Bar
+
 [showBarCPU]
 MeasureName=getCpu#Core0Number#
 Meter=Bar
@@ -151,6 +169,7 @@ SolidColor2=#BarColorBgTo#
 BarOrientation=#BarOrientation#
 
 ; ------------------------------------- CPU Line
+
 [showLineCPU]
 MeasureName=getCpu#Core0Number#
 Meter=Line

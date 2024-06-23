@@ -1,4 +1,19 @@
+;==============================================================================
+; Grayhound Measure Configurations
+;
+; @category: Rainmeter
+; @package: Grayhound
+; @version: 5.6.0
+; @date: 2024-06-22
+; @author: George Lewe <george@lewe.com>
+; @copyright: 2012-2024 by George Lewe
+; @link: http://www.lewe.com
+; @license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+; @documentation: https://lewe.gitbook.io/rainmeter-skin-grayhound
+;
+
 ;-------------------------------------------------------------------- Fan 1
+
 [getFANCFan1]
 Measure=Registry
 RegHKey=HKEY_CURRENT_USER
@@ -18,6 +33,7 @@ IfBelowValue=0
 ifBelowAction=[!SetOption showBarFan1 BarColor "#ColorFanLow#,#BarColorTransparency#"][!SetOption showLineFan1 LineColor "#ColorFanLow#,180"][!SetOption showHistogramFan1 PrimaryColor "#ColorFanLow#,60"][!Redraw]
 
 ;-------------------------------------------------------------------- Fan 2
+
 [getFANCFan2]
 Measure=Registry
 RegHKey=HKEY_CURRENT_USER
@@ -37,6 +53,7 @@ IfBelowValue=0
 ifBelowAction=[!SetOption showBarFan2 BarColor "#ColorFanLow#,#BarColorTransparency#"][!SetOption showLineFan2 LineColor "#ColorFanLow#,180"][!SetOption showHistogramFan2 PrimaryColor "#ColorFanLow#,60"][!Redraw]
 
 ;-------------------------------------------------------------------- Fan 3
+
 [getFANCFan3]
 Measure=Registry
 RegHKey=HKEY_CURRENT_USER
@@ -56,6 +73,7 @@ IfBelowValue=0
 ifBelowAction=[!SetOption showBarFan3 BarColor "#ColorFanLow#,#BarColorTransparency#"][!SetOption showLineFan3 LineColor "#ColorFanLow#,180"][!SetOption showHistogramFan3 PrimaryColor "#ColorFanLow#,60"][!Redraw]
 
 ;-------------------------------------------------------------------- Fan 4
+
 [getFANCFan4]
 Measure=Registry
 RegHKey=HKEY_CURRENT_USER
@@ -75,6 +93,7 @@ IfBelowValue=0
 ifBelowAction=[!SetOption showBarFan4 BarColor "#ColorFanLow#,#BarColorTransparency#"][!SetOption showLineFan4 LineColor "#ColorFanLow#,180"][!SetOption showHistogramFan4 PrimaryColor "#ColorFanLow#,60"][!Redraw]
 
 ;-------------------------------------------------------------------- Fan 5
+
 [getFANCFan5]
 Measure=Registry
 RegHKey=HKEY_CURRENT_USER
@@ -94,6 +113,7 @@ IfBelowValue=0
 ifBelowAction=[!SetOption showBarFan5 BarColor "#ColorFanLow#,#BarColorTransparency#"][!SetOption showLineFan5 LineColor "#ColorFanLow#,180"][!SetOption showHistogramFan5 PrimaryColor "#ColorFanLow#,60"][!Redraw]
 
 ;-------------------------------------------------------------------- Fan 6
+
 [getFANCFan6]
 Measure=Registry
 RegHKey=HKEY_CURRENT_USER

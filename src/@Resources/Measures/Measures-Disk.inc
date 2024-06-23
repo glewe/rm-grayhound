@@ -1,4 +1,19 @@
+;==============================================================================
+; Grayhound Measure Configurations
+;
+; @category: Rainmeter
+; @package: Grayhound
+; @version: 5.6.0
+; @date: 2024-06-22
+; @author: George Lewe <george@lewe.com>
+; @copyright: 2012-2024 by George Lewe
+; @link: http://www.lewe.com
+; @license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+; @documentation: https://lewe.gitbook.io/rainmeter-skin-grayhound
+;
+
 ; ------------------------------------- Drive 1
+
 [getDrive1Access]
 Measure=Plugin
 Plugin=Plugins\PerfMon.dll
@@ -26,6 +41,7 @@ Drive=#Drive1Letter#
 Total=1
 
 ; ------------------------------------- Drive 2
+
 [getDrive2Access]
 Measure=Plugin
 Plugin=Plugins\PerfMon.dll
@@ -53,6 +69,7 @@ Drive=#Drive2Letter#
 Total=1
 
 ; ------------------------------------- Drive 3
+
 [getDrive3Access]
 Measure=Plugin
 Plugin=Plugins\PerfMon.dll
@@ -80,6 +97,7 @@ Drive=#Drive3Letter#
 Total=1
 
 ; ------------------------------------- Drive 4
+
 [getDrive4Access]
 Measure=Plugin
 Plugin=Plugins\PerfMon.dll

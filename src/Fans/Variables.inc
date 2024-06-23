@@ -1,3 +1,17 @@
+;==============================================================================
+; Grayhound Variables
+;
+; @category: Rainmeter
+; @package: Grayhound
+; @version: 5.6.0
+; @date: 2024-06-22
+; @author: George Lewe <george@lewe.com>
+; @copyright: 2012-2024 by George Lewe
+; @link: http://www.lewe.com
+; @license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+; @documentation: https://lewe.gitbook.io/rainmeter-skin-grayhound
+;
+
 [Variables]
 ;
 ; Skin settings
@@ -50,9 +64,9 @@ HiFan6=#HiFan#
 ; Captions
 ;
 CaptionFan="FAN SPEED"
-CaptionFan1="Bottom Rear"
-CaptionFan2="Bottom Front"
-CaptionFan3="Front Top"
-CaptionFan4="Front Middle"
-CaptionFan5="Front Bottom"
-CaptionFan6="Back"
+CaptionFan1="CPU"
+CaptionFan2="Front Panel"
+CaptionFan3="Bottom Panel"
+CaptionFan4="Rear Fan"
+CaptionFan5="---"
+CaptionFan6="---"

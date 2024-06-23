@@ -1,4 +1,19 @@
+;==============================================================================
+; Grayhound Meter Settings
+;
+; @category: Rainmeter
+; @package: Grayhound
+; @version: 5.6.0
+; @date: 2024-06-22
+; @author: George Lewe <george@lewe.com>
+; @copyright: 2012-2024 by George Lewe
+; @link: http://www.lewe.com
+; @license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+; @documentation: https://lewe.gitbook.io/rainmeter-skin-grayhound
+;
+
 ; ------------------------------------- Core 1
+
 [showCaptionCpu1]
 MeasureName=getCpuDisplayName
 Meter=String
@@ -77,6 +92,7 @@ Flip=0
 PrimaryColor=#HistoFillColor#
 
 ; ------------------------------------- Core 2
+
 [showCaptionCpu2]
 MeasureName=getCpuDisplayName
 Meter=String
@@ -143,6 +159,7 @@ Flip=0
 PrimaryColor=#HistoFillColor#
 
 ; ------------------------------------- Core 3
+
 [showCaptionCpu3]
 MeasureName=getCpuDisplayName
 Meter=String
@@ -209,6 +226,7 @@ Flip=0
 PrimaryColor=#HistoFillColor#
 
 ; ------------------------------------- Core 4
+
 [showCaptionCpu4]
 MeasureName=getCpuDisplayName
 Meter=String
@@ -275,6 +293,7 @@ Flip=0
 PrimaryColor=#HistoFillColor#
 
 ; ------------------------------------- Core 5
+
 [showCaptionCpu5]
 MeasureName=getCpuDisplayName
 Meter=String
@@ -341,6 +360,7 @@ Flip=0
 PrimaryColor=#HistoFillColor#
 
 ; ------------------------------------- Core 6
+
 [showCaptionCpu6]
 MeasureName=getCpuDisplayName
 Meter=String
@@ -407,6 +427,7 @@ Flip=0
 PrimaryColor=#HistoFillColor#
 
 ; ------------------------------------- Core 7
+
 [showCaptionCpu7]
 MeasureName=getCpuDisplayName
 Meter=String
@@ -473,6 +494,7 @@ Flip=0
 PrimaryColor=#HistoFillColor#
 
 ; ------------------------------------- Core 8
+
 [showCaptionCpu8]
 MeasureName=getCpuDisplayName
 Meter=String

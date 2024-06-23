@@ -1,3 +1,17 @@
+;==============================================================================
+; Grayhound Measure Configurations
+;
+; @category: Rainmeter
+; @package: Grayhound
+; @version: 5.6.0
+; @date: 2024-06-22
+; @author: George Lewe <george@lewe.com>
+; @copyright: 2012-2024 by George Lewe
+; @link: http://www.lewe.com
+; @license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+; @documentation: https://lewe.gitbook.io/rainmeter-skin-grayhound
+;
+
 [MeasureGPUTemp]
 Measure=Registry
 RegHKey=HKEY_CURRENT_USER
@@ -67,6 +81,12 @@ RegHKey=HKEY_CURRENT_USER
 RegKey=SOFTWARE\HWiNFO64\VSB
 RegValue=#GPUMemAlloc#
 
+[MeasureGPUMemAvail]
+Measure=Registry
+RegHKey=HKEY_CURRENT_USER
+RegKey=SOFTWARE\HWiNFO64\VSB
+RegValue=#GPUMemAvail#
+
 [MeasureGPUMemUsedPercent]
 Measure=Registry
 RegHKey=HKEY_CURRENT_USER
@@ -77,7 +97,8 @@ MaxValue=100
 
 [MeasureGPURAMTotal]
 Measure=Calc
-Formula=(MeasureGPUMemAlloc * 1024 * 1024 * 100 / MeasureGPUMemUsedPercent)
+Formula=(MeasureGPUMemAlloc + MeasureGPUMemAvail) * 1024 * 1024
+;Formula=(MeasureGPUMemAlloc * 1024 * 1024 * 100 / MeasureGPUMemUsedPercent)
 ;IfCondition=1
 ;IfTrueAction=[!SetVariable TextRAMTotal [&LuaScript:FormatNumber([&MeasureGPURAMTotal],2,'1k')]]
 ;OnChangeAction=[!SetVariable TextRAMTotal [&LuaScript:FormatNumber([&MeasureGPURAMTotal],2,'1k')]]
@@ -85,7 +106,8 @@ Formula=(MeasureGPUMemAlloc * 1024 * 1024 * 100 / MeasureGPUMemUsedPercent)
 
 [MeasureGPURAMFree]
 Measure=Calc
-Formula=Max(0, MeasureGPURAMTotal - MeasureGPUMemAlloc)
+Formula=MeasureGPUMemAvail
+;Formula=Max(0, MeasureGPURAMTotal - MeasureGPUMemAlloc)
 ;IfCondition=1
 ;IfTrueAction=[!SetVariable TextRAMFree [&LuaScript:FormatNumber([&MeasureGPURAMFree],4,'1k')]]
 ;OnChangeAction=[!SetVariable TextRAMFree [&LuaScript:FormatNumber([&MeasureGPURAMFree],4,'1k')]]
