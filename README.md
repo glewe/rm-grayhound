@@ -31,7 +31,7 @@ I like less obstrusive skins for metering so I decided to go "gray scale" for al
 
 ## Note
 
-For the Fan Speed and Temperature skin you need to install [HWiNFO 7.x](https://www.hwinfo.com/) (or higher) that delivers the corresponding readings to the Registry where Rainmeter Measures can pick them up.
+For the Fan Speed and Temperature skin you need to install [HWiNFO 7.x](https://www.hwinfo.com/) that delivers the corresponding readings to the Registry where Rainmeter Measures can pick them up.
 Read more about the setup of HWiNFO and Rainmeter here: [https://docs.rainmeter.net/tips/hwinfo/](https://docs.rainmeter.net/tips/hwinfo/)
 
 For the Music Skin you need one of the supported media players that Rainmeter can read from. You can find the supported players listed [here](https://docs.rainmeter.net/manual/measures/nowplaying/).
