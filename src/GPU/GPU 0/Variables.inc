@@ -40,9 +40,9 @@ SkinIcon=#IconGPU#
 ;
 ; Fan Max and Thresholds
 ;
-MaxGPUFan=8000
-MedGPUFan=4000
-HiGPUFan=6500
+MaxGPUFan=2000
+MedGPUFan=1000
+HiGPUFan=1700
 
 ;
 ; Temperatur Max and Thresholds

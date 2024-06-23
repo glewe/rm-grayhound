@@ -81,7 +81,7 @@ TrackBarHeight=2
 ;
 CaptionMarginBottom=22r
 BarMarginBottom=18r
-HistoMarginBottom=56r
+HistoMarginBottom=66r
 HistoHeight=40
 HistoYRel=-34r
 LegendWidth=140
