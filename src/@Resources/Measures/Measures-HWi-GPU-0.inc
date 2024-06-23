@@ -106,7 +106,7 @@ Formula=(MeasureGPUMemAlloc + MeasureGPUMemAvail) * 1024 * 1024
 
 [MeasureGPURAMFree]
 Measure=Calc
-Formula=MeasureGPUMemAvail
+Formula=MeasureGPURAMTotal - (MeasureGPURAMTotal * (MeasureGPUMemUsedPercent/100))
 ;Formula=Max(0, MeasureGPURAMTotal - MeasureGPUMemAlloc)
 ;IfCondition=1
 ;IfTrueAction=[!SetVariable TextRAMFree [&LuaScript:FormatNumber([&MeasureGPURAMFree],4,'1k')]]
