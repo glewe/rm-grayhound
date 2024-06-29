@@ -111,3 +111,17 @@ Formula=MeasureGPURAMTotal - (MeasureGPURAMTotal * (MeasureGPUMemUsedPercent/100
 ;IfCondition=1
 ;IfTrueAction=[!SetVariable TextRAMFree [&LuaScript:FormatNumber([&MeasureGPURAMFree],4,'1k')]]
 ;OnChangeAction=[!SetVariable TextRAMFree [&LuaScript:FormatNumber([&MeasureGPURAMFree],4,'1k')]]
+
+[MeasureGPUPower]
+Measure=Registry
+RegHKey=HKEY_CURRENT_USER
+RegKey=SOFTWARE\HWiNFO64\VSB
+RegValue=#GPUPower#
+MinValue=0
+MaxValue=300
+
+[MeasureGPUPowerGraph]
+Measure=Calc
+Formula=MeasureGPUPower
+AverageSize=#SmoothFactor#
+

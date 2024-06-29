@@ -109,6 +109,11 @@ DownMaxNetwork=(1000 * 1048576)
 UpMaxNetwork=(50 * 1048576)
 
 ;
+; Power options
+;
+ColorPower=#Blue#
+
+;
 ; Processes skin options
 ;
 ColorProcess=#Pink#
