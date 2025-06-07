@@ -1,4 +1,4 @@
-![rainmeter-128.png](https://bytebucket.org/ravatar/%7Bbd8fd59d-eafd-4ba0-82d6-c8c91bcb31c4%7D?ts=2748439)
+![rainmeter-128.png](https://github.com/glewe/rm-grayhound/blob/master/src/%40Resources/Images/rainmeter-128.png)
 
 # Rainmeter Skin Package: Grayhound
 
