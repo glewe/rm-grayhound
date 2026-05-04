@@ -61,7 +61,7 @@ W=#MeterWidth#
 H=#BarHeight#
 BarColor=#GPUColor#
 SolidColor=#BarColorBgFrom#
-SolidColor1=#BarColorBgTo#
+SolidColor2=#BarColorBgTo#
 BarOrientation=#BarOrientation#
 
 [showLineUsage]
@@ -124,7 +124,7 @@ W=#MeterWidth#
 H=#BarHeight#
 BarColor=#GPUMemColor#
 SolidColor=#BarColorBgFrom#
-SolidColor1=#BarColorBgTo#
+SolidColor2=#BarColorBgTo#
 BarOrientation=#BarOrientation#
 
 [showLineVram]
@@ -187,7 +187,7 @@ W=#MeterWidth#
 H=#BarHeight#
 BarColor=#GPUFanColor#
 SolidColor=#BarColorBgFrom#
-SolidColor1=#BarColorBgTo#
+SolidColor2=#BarColorBgTo#
 BarOrientation=#BarOrientation#
 
 [showLineGPUFan]
@@ -250,7 +250,7 @@ W=#MeterWidth#
 H=#BarHeight#
 BarColor=#GPUTempColor#
 SolidColor=#BarColorBgFrom#
-SolidColor1=#BarColorBgTo#
+SolidColor2=#BarColorBgTo#
 BarOrientation=#BarOrientation#
 
 [showLineGPUTemp]

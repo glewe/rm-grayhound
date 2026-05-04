@@ -59,7 +59,7 @@ W=#MeterWidth#
 H=#BarHeight#
 BarColor=#BarColor#
 SolidColor=#BarColorBgFrom#
-SolidColor1=#BarColorBgTo#
+SolidColor2=#BarColorBgTo#
 BarOrientation=#BarOrientation#
 
 [showLineSYS]
@@ -122,7 +122,7 @@ W=#MeterWidth#
 H=#BarHeight#
 BarColor=#BarColor#
 SolidColor=#BarColorBgFrom#
-SolidColor1=#BarColorBgTo#
+SolidColor2=#BarColorBgTo#
 BarOrientation=#BarOrientation#
 
 [showLineGPU]
@@ -185,7 +185,7 @@ W=#MeterWidth#
 H=#BarHeight#
 BarColor=#BarColor#
 SolidColor=#BarColorBgFrom#
-SolidColor1=#BarColorBgTo#
+SolidColor2=#BarColorBgTo#
 BarOrientation=#BarOrientation#
 
 [showLineCPU]
@@ -248,7 +248,7 @@ W=#MeterWidth#
 H=#BarHeight#
 BarColor=#BarColor#
 SolidColor=#BarColorBgFrom#
-SolidColor1=#BarColorBgTo#
+SolidColor2=#BarColorBgTo#
 BarOrientation=#BarOrientation#
 
 [showLineHD0]
@@ -311,7 +311,7 @@ W=#MeterWidth#
 H=#BarHeight#
 BarColor=#BarColor#
 SolidColor=#BarColorBgFrom#
-SolidColor1=#BarColorBgTo#
+SolidColor2=#BarColorBgTo#
 BarOrientation=#BarOrientation#
 
 [showLineHD1]

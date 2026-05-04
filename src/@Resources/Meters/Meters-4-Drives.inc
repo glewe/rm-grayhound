@@ -63,7 +63,7 @@ W=#MeterWidth#
 H=#BarHeight#
 BarColor=#BarColor#
 SolidColor=#BarColorBgFrom#
-SolidColor1=#BarColorBgTo#
+SolidColor2=#BarColorBgTo#
 BarOrientation=#BarOrientation#
 
 [showDrive1Line]
@@ -142,7 +142,7 @@ W=#MeterWidth#
 H=#BarHeight#
 BarColor=#BarColor#
 SolidColor=#BarColorBgFrom#
-SolidColor1=#BarColorBgTo#
+SolidColor2=#BarColorBgTo#
 BarOrientation=#BarOrientation#
 
 [showDrive2Line]
@@ -221,7 +221,7 @@ W=#MeterWidth#
 H=#BarHeight#
 BarColor=#BarColor#
 SolidColor=#BarColorBgFrom#
-SolidColor1=#BarColorBgTo#
+SolidColor2=#BarColorBgTo#
 BarOrientation=#BarOrientation#
 
 [showDrive3Line]
@@ -300,7 +300,7 @@ W=#MeterWidth#
 H=#BarHeight#
 BarColor=#BarColor#
 SolidColor=#BarColorBgFrom#
-SolidColor1=#BarColorBgTo#
+SolidColor2=#BarColorBgTo#
 BarOrientation=#BarOrientation#
 
 [showDrive4Line]

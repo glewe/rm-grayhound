@@ -223,7 +223,7 @@ W=#MeterWidth#
 H=#BarHeight#
 BarColor=#GPUFanColor#
 SolidColor=#BarColorBgFrom#
-SolidColor1=#BarColorBgTo#
+SolidColor2=#BarColorBgTo#
 BarOrientation=#BarOrientation#
 
 [showLineGPUFan]
@@ -298,7 +298,7 @@ W=#MeterWidth#
 H=#BarHeight#
 BarColor=#GPUPowerColor#
 SolidColor=#BarColorBgFrom#
-SolidColor1=#BarColorBgTo#
+SolidColor2=#BarColorBgTo#
 BarOrientation=#BarOrientation#
 
 [showLineGPUPower]

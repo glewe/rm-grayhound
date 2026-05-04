@@ -12,7 +12,7 @@
 ; @documentation: https://lewe.gitbook.io/rainmeter-skin-grayhound
 ;
 
-[createCanavas]
+[createCanvas]
 Meter=String
 X=0
 Y=0

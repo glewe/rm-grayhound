@@ -322,7 +322,7 @@ W=#TrackWidth#
 H=#TrackBarHeight#
 BarColor=#ProgressBarColor#
 SolidColor=#ProgressBarColorBgFrom#
-SolidColor1=#ProgressBarColorBgTo#
+SolidColor2=#ProgressBarColorBgTo#
 BarOrientation=Horizontal
 
 [playPrev]
